@@ -3,34 +3,35 @@
 <head>
         <meta charset="utf-8" />
         <title>Jeremy's Blog - lstm</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="stylesheet" href="//jirvin16.github.io/theme/css/main.css" />
+        <link href="//jirvin16.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Jeremy's Blog Atom Feed" />
 
         <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Jeremy's Blog </a></h1>
+                <h1><a href="//jirvin16.github.io/">Jeremy's Blog </a></h1>
                 <nav><ul>
-                    <li><a href="/category/posts.html">posts</a></li>
+                    <li><a href="//jirvin16.github.io/category/posts.html">posts</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/time-series-lstm.html">Time Series Forecasting using LSTM's with Keras: Mimicking the Past</a></h1>
+                    <h1 class="entry-title"><a href="//jirvin16.github.io/time-series-lstm.html">Time Series Forecasting using LSTM's with Keras: Mimicking the Past</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2016-09-23T16:30:00-07:00">
                 Published: Fri 23 September 2016
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="/author/jeremy-irvin.html">Jeremy Irvin</a>
+                By                         <a class="url fn" href="//jirvin16.github.io/author/jeremy-irvin.html">Jeremy Irvin</a>
         </address>
-<p>In <a href="/category/posts.html">posts</a>.</p>
-<p>tags: <a href="/tag/python.html">python</a> <a href="/tag/machine-learning.html">machine learning</a> <a href="/tag/time-series.html">time series</a> <a href="/tag/lstm.html">lstm</a> <a href="/tag/keras.html">keras</a> </p>
+<p>In <a href="//jirvin16.github.io/category/posts.html">posts</a>.</p>
+<p>tags: <a href="//jirvin16.github.io/tag/python.html">python</a> <a href="//jirvin16.github.io/tag/machine-learning.html">machine learning</a> <a href="//jirvin16.github.io/tag/time-series.html">time series</a> <a href="//jirvin16.github.io/tag/lstm.html">lstm</a> <a href="//jirvin16.github.io/tag/keras.html">keras</a> </p>
 </footer><!-- /.post-info --><style type="text/css">/*!
 *
 * IPython notebook
@@ -331,7 +332,7 @@ div.input_area > div.highlight > pre {
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
- * See: https://github.com/ipython/ipython/issues/1503
+ * See: //github.com/ipython/ipython/issues/1503
  *
  * .CodeMirror span {
  *      vertical-align: bottom;
@@ -1009,21 +1010,21 @@ h6:hover .anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>NOTE: THIS BLOG IS UNFINISHED. This is a work in progress over the next several weeks.</p>
-<p>I was fortunate to do an internship with Microsoft on the <em>Bing Predicts</em> team this past summer. The team is doing super cool stuff, check them out <a href="http://www.bing.com/explore/predicts">here</a>.</p>
+<p>I was fortunate to do an internship with Microsoft on the <em>Bing Predicts</em> team this past summer. The team is doing super cool stuff, check them out <a href="//www.bing.com/explore/predicts">here</a>.</p>
 <p>We encountered an interesting phenomenon when trying to perform time series forecasting using LSTM's - namely that they mimick the past time steps of the series. This is explained in detail below.</p>
-<p>I wanted to share these findings with the community because there doesn't seem to be very many attempts at time series prediction using these methods, and a few people have encountered the same problem, for example in <a href="http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/">Jason Brownlee's blog</a>, and a small discussion <a href="https://github.com/fchollet/keras/issues/2856">here</a>.</p>
+<p>I wanted to share these findings with the community because there doesn't seem to be very many attempts at time series prediction using these methods, and a few people have encountered the same problem, for example in <a href="//machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/">Jason Brownlee's blog</a>, and a small discussion <a href="//github.com/fchollet/keras/issues/2856">here</a>.</p>
 <p>So to reiterate: the purpose of this post is to exemplify an unusual tendency of LSTM's trained on time series to mimick the history of the time series, rather than learn more complex features or interesting properties of the time series. I hope to gain some insights or even solutions for this problem - any suggestions or comments are greatly appreciated!</p>
 <p>Let's get started.</p>
 <h2 id="Time-Series-Forecasting">Time Series Forecasting<a class="anchor-link" href="#Time-Series-Forecasting">¶</a></h2><p>The problem at hand is time series forecasting, defined as follows:</p>
 <p>Given a sequence of real values $t_1,t_2,...,t_n$, can we predict $t_{n+1}$? (these can also be vector-valued but to keep things simple we will use values in $\mathbb{R}$)</p>
 <p>More generally, can we predict $t_{n+1},...,t_{n+k}$ for some $k\geq 1$?</p>
 <p>Typically these values are measured in (approximately) equidistant time intervals, for example, TODO PROVIDE FUNNY EXAMPLES HERE</p>
-<p>There are many standard attempts, such as <a href="https://en.wikipedia.org/wiki/Autoregressive%E2%80%93moving-average_model">ARMA</a> and <a href="https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average">ARIMA</a>, as well as nonlinear regression procedures using say, neural networks, for example.</p>
+<p>There are many standard attempts, such as <a href="//en.wikipedia.org/wiki/Autoregressive%E2%80%93moving-average_model">ARMA</a> and <a href="//en.wikipedia.org/wiki/Autoregressive_integrated_moving_average">ARIMA</a>, as well as nonlinear regression procedures using say, neural networks, for example.</p>
 <p>The attractive property of using recurrent neural networks, LSTM's in particular, is that we can not only capture nonlinear features of the series but also long-term dependencies. Moreover, these methods fit well in the sequence to sequence setting that has effectively been tackled by recurrent neural networks recently (for example, in machine translation, mapping sequences of words in one language to sequences of words in another). Our setting calls for mapping sequences of real numbers to sequences of real numbers.</p>
-<h2 id="Data-and-Methods">Data and Methods<a class="anchor-link" href="#Data-and-Methods">¶</a></h2><p>The data we will be examining in this post comes from <a href="https://www.quandl.com/">Quandl</a> - daily time series of historical stock values from 30 different companies (Apple, IBM, General Electric to name a few).</p>
+<h2 id="Data-and-Methods">Data and Methods<a class="anchor-link" href="#Data-and-Methods">¶</a></h2><p>The data we will be examining in this post comes from <a href="//www.quandl.com/">Quandl</a> - daily time series of historical stock values from 30 different companies (Apple, IBM, General Electric to name a few).</p>
 <p>I obtained the free data available using Quandl's API, and then performed deseasonalization and detrending on each time series. The Python script to do the preprocessing can be found <a href="TODO">here(TODO)</a>. The files which are output are called seasons.tsv, trend.tsv, and residual.tsv. The only file we care about for now is residual.tsv, which contains the 30 deseasonalized and detrended time series, which we will refer to as residuals.</p>
 <p>The total Python script to perform all other model training and analysis can be found <a href="TODO">here(TODO)</a>.</p>
-<p>We are going to use <a href="https://keras.io/">Keras</a>, a deep learning library in Python, to make all the LSTM training much, much simpler.</p>
+<p>We are going to use <a href="//keras.io/">Keras</a>, a deep learning library in Python, to make all the LSTM training much, much simpler.</p>
 <p>Let's import all of the necessary modules:</p>
 </div>
 </div>
@@ -1054,7 +1055,7 @@ h6:hover .anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As you can see, the console states 'Using Theano backend', indicating that Keras will be using <a href="http://deeplearning.net/software/theano/">Theano</a> and the backend as opposed to <a href="https://www.tensorflow.org/">TensorFlow</a>. Either backend should work here to specify and train the final model.</p>
+<p>As you can see, the console states 'Using Theano backend', indicating that Keras will be using <a href="//deeplearning.net/software/theano/">Theano</a> and the backend as opposed to <a href="//www.tensorflow.org/">TensorFlow</a>. Either backend should work here to specify and train the final model.</p>
 <p>It's typically a good idea to fix the random seed when training ML models which incorporate some sort of randomness (which many do) in order to ensure reproducibility:</p>
 </div>
 </div>
@@ -1269,7 +1270,7 @@ Name: Residual, dtype: object</pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In order to improve training times and avoid getting stuck in local optima, we need to normalize the dataset. We will use a separate <a href="http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">MinMax Scaler</a> per time series to perform this normalization (if we don't do this per time series, some time series with large values will essentially be 'weighted' during training due to larger error propagation). Note that we need to store the mins and the maxs in order to invert this transformation.</p>
+<p>In order to improve training times and avoid getting stuck in local optima, we need to normalize the dataset. We will use a separate <a href="//scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html">MinMax Scaler</a> per time series to perform this normalization (if we don't do this per time series, some time series with large values will essentially be 'weighted' during training due to larger error propagation). Note that we need to store the mins and the maxs in order to invert this transformation.</p>
 </div>
 </div>
 </div>
@@ -1648,15 +1649,16 @@ Name: Residual, dtype: object</pre>
                 <div class="blogroll">
                         <h2>blogroll</h2>
                         <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="//getpelican.com/">Pelican</a></li>
+                            <li><a href="//python.org/">Python.org</a></li>
+                            <li><a href="//jinja.pocoo.org/">Jinja2</a></li>
                             <li><a href="#">You can modify those links in your config file</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
                         <h2>social</h2>
                         <ul>
+                            <li><a href="//jirvin16.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
 
                             <li><a href="#">You can add links in your config file</a></li>
                             <li><a href="#">Another social link</a></li>
@@ -1666,10 +1668,10 @@ Name: Residual, dtype: object</pre>
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="//getpelican.com/">Pelican</a>, which takes great advantage of <a href="//python.org">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="//coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 </body>

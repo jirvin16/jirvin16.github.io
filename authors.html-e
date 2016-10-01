@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Jeremy's Blog</title>
+        <title>Jeremy's Blog - Authors</title>
         <link rel="stylesheet" href="//jirvin16.github.io/theme/css/main.css" />
         <link href="//jirvin16.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Jeremy's Blog Atom Feed" />
 
         <!--[if IE]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
@@ -18,14 +18,14 @@
                     <li><a href="//jirvin16.github.io/category/posts.html">posts</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for Jeremy's Blog</h1>
 
-<dl>
-    <dt>Fri 23 September 2016</dt>
-    <dd><a href="//jirvin16.github.io/time-series-lstm.html">Time Series Forecasting using LSTM's with Keras: Mimicking the Past</a></dd>
-</dl>
+<section id="content" class="body">
+    <h1>Authors on Jeremy's Blog</h1>
+    <ul>
+        <li><a href="//jirvin16.github.io/author/jeremy-irvin.html">Jeremy Irvin</a> (1)</li>
+    </ul>
 </section>
+
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>

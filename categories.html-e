@@ -7,7 +7,7 @@
         <link href="//jirvin16.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Jeremy's Blog Atom Feed" />
 
         <!--[if IE]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
@@ -18,14 +18,9 @@
                     <li><a href="//jirvin16.github.io/category/posts.html">posts</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for Jeremy's Blog</h1>
-
-<dl>
-    <dt>Fri 23 September 2016</dt>
-    <dd><a href="//jirvin16.github.io/time-series-lstm.html">Time Series Forecasting using LSTM's with Keras: Mimicking the Past</a></dd>
-</dl>
-</section>
+<ul>
+    <li><a href="//jirvin16.github.io/category/posts.html">posts</a></li>
+</ul>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
