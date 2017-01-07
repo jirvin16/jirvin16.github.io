@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="theme/stylesheet/stylesheet.css">
+  <link rel="stylesheet" href="theme/css/stylesheet.css">
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -46,7 +46,7 @@
                 <a href="https://github.com/jirvin16"><i id="github" class="fa fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/jirvin16"><i id="linkedin" class="fa fa-linkedin"></i></a>
                 <a href="mailto:jirvin16@stanford.edu"><i id="mail" class="fa fa-envelope"></i></a>
-                <a href="//jirvin16.github.io/pdfs/resume_sep_2016.pdf" target="_blank" ><i id="resume" class="fa fa-file-text"></i></a>
+                <a href="//jirvin16.github.io/pdfs/resume.pdf" target="_blank" ><i id="resume" class="fa fa-file-text"></i></a>
                 <!--<a href="https://bitbucket.org/jirvin16"><i id="bitbucket" class="fa fa-bitbucket"></i></a>-->
               </div>
             </div>
@@ -68,7 +68,7 @@
     <div id="second_section">
       <div id="second_positioner">
         <div id="second_container">
-          <div id="frontTitle">
+<!--           <div id="frontTitle">
           <br>
           <h2 id="desc">Hey there! Thanks for checking out my site.</h2>
           <br>
@@ -76,14 +76,196 @@
           <br>
           <h2 id="desc">Love to play music (guitar and sing), exercise, and code! Please check out my <a href="//jirvin16.github.io/blog.html">blog</a>.
           </h2>
-          </div>
-          <div class="b2">Experience</div>
-          <div id="container-projects">
-
+          </div> -->
+          <div class="b2">Education</div>
+          <div id="container-stuff">
+            <div id="boxes">
             <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';"> 
               <div class="front">
                   <div class="frontTitle">
-                    Microsoft Internship
+                    Stanford
+                    <br>
+                    Computer Science Master's Degree
+                  </div>
+                  <div class="frontLogo stanford"></div>
+                  <div class="frontLocation">
+                    Sep 2016 - June 2018
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Stanford Master's</div>
+                <div class="backParagraph">
+                  <p>
+                  Completing my Master's degree in Computer Science with a specialization in AI.
+                  <br></br>
+                  4.00 / 4.00 GPA
+                  <br></br>
+                  Coursework thus far:
+                  <br>
+                  <a href="cs229.stanford.edu">CS229</a>
+                  <br> 
+                  <a href="cs221.stanford.edu">CS221</a>
+                  <br> 
+                  <a href="cs228.stanford.edu">CS228</a>
+                  <br> 
+                  <a href="cs224n.stanford.edu">CS224N</a>
+                  <br> 
+                  STATS315A
+                  </p>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+            
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';"> 
+              <div class="front">
+                  <div class="frontTitle">
+                    UCSB
+                    <br>
+                    Double B.S. Math and CS
+                  </div>
+                  <div class="frontLogo ucsb"></div>
+                  <div class="frontLocation">
+                    Sep 2012 - June 2016
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">UCSB Double B.S.</div>
+                <div class="backParagraph">
+                  <p>
+                  Obtained a B.S. in both Math and Computer Science in the <a href="https://www.ccs.ucsb.edu/">College of Creative Studies</a> at UCSB.
+                  <br></br>
+                  3.97 / 4.00 GPA
+                  <br></br>
+                  Regents Scholar, Graduated with Highest Honors
+                  </p>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <!-- THIRD -->
+
+    <div id="third_section">
+      <div id="third_positioner">
+        <div id="third_container">
+          <div class="b2">Recent Projects</div>
+          <div id="container-stuff">    
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+              <div class="front">
+                  <div class="frontTitle">
+                    Recurrent Neural Networks with Attention for Genre Classification
+                  </div>
+                  <div class="frontLogo network"></div>
+                  <div class="frontLocation">
+                    Fall 2016
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Recurrent Neural Networks with Attention for Genre Classification</div>
+                <div class="backParagraph">
+                  Implemented RNN’s and LSTM’s for automatic genre classification of songs using audio spectrograms.
+                  <br></br>
+                  All code written in Python using TensorFlow.
+                  <br></br>
+                  Achieved results comparable to state-of-the-art which uses hand-crafted features.
+                  <br></br>
+                  <a href="//jirvin16.github.io/pdfs/genre_paper.pdf">Paper</a>
+                  <br>
+                  <a href="//jirvin16.github.io/pdfs/genre_poster.pdf">Poster</a>
+                  <br> 
+                  <a href="https://github.com/jirvin16/229Project">Implementation</a>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>    
+
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+              <div class="front">
+                  <div class="frontTitle">
+                    Convolutional Neural Networks for 3D MNIST Image Classification
+                  </div>
+                  <div class="frontLogo voxel"></div>
+                  <div class="frontLocation">
+                    Fall 2016
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Convolutional Neural Networks for 3D MNIST Image Classification</div>
+                <div class="backParagraph">
+                  Implemented 3D CNN's for classification of a <a href="https://www.kaggle.com/daavoo/3d-mnist">3D MNIST</a> dataset.
+                  <br></br>
+                  All code written in Python using TensorFlow.
+                  <br></br>
+                  Most of the models beat all of the baselines.
+                  <br></br>
+                  <a href="//jirvin16.github.io/pdfs/3d_cnn_paper.pdf">Paper</a>
+                  <br>
+                  <a href="//jirvin16.github.io/pdfs/3d_cnn_poster.pdf">Poster</a>
+                  <br> 
+                  <a href="https://github.com/jirvin16/3D-MNIST-Classification">Implementation</a>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+              <div class="front">
+                  <div class="frontTitle">
+                    Deep Learning <br> Bootcamp
+                  </div>
+                  <div class="frontLogo bootcamp"></div>
+                  <div class="frontLocation">
+                    Fall 2016
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Deep Learning Bootcamp</div>
+                <div class="backParagraph">
+                  Participated in a selective (5-student) deep learning bootcamp under Professor Andrew Ng and his PhD students.
+                  <br>
+                  Implemented the following three papers (using Python with TensorFlow):
+                  <br></br>
+                  <a href="http://www.aclweb.org/anthology/D15-1166">Neural Machine Translation with Attention</a>
+                  <br>
+                  <a href="https://github.com/jirvin16/DLBootCamp/tree/master/attention">Implementation</a>
+                  <br></br>
+                  <a href="https://arxiv.org/pdf/1312.6114v10.pdf">Variational Autoencoder</a>
+                  <br>
+                  <a href="https://github.com/jirvin16/DLBootCamp/tree/master/variational_autoencoder">Implementation</a>
+                  <br></br>
+                  <a href="https://arxiv.org/pdf/1611.04558v1.pdf">Zero Shot Translation</a>
+                  <br>
+                  <a href="https://github.com/jirvin16/DLBootCamp/tree/master/zero_shot">Implementation</a>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br></br>
+    <br></br>
+    <br>
+
+    <!-- FOURTH -->
+
+    <div id="fourth_section">
+      <div id="fourth_positioner">
+        <div id="fourth_container">
+          <div class="b2">Internships</div>
+          <div id="container-stuff">    
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';"> 
+              <div class="front">
+                  <div class="frontTitle">
+                    Microsoft
                   </div>
                   <div class="frontLogo ms"></div>
                   <!--<div class="frontLogo bing"></div>-->
@@ -92,7 +274,7 @@
                   </div>
               </div>
               <div class="back">
-                <div class="backTitle">Microsoft Internship</div>
+                <div class="backTitle">Microsoft</div>
                 <div class="backParagraph">
                   Interned on the <a href="http://www.bing.com/explore/predicts">Bing Predicts </a>
                   team, a team of machine learning experts and data scientists from Microsoft Research and Bing, making predictions on popular events in entertainment, sports, politics, and more.<br></br>
@@ -105,8 +287,104 @@
               </div>
             </div>
 
-            
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';"> 
+              <div class="front">
+                  <div class="frontTitle">
+                    Microsoft
+                  </div>
+                  <div class="frontLogo ms"></div>
+                  <!--<div class="frontLogo bing"></div>-->
+                  <div class="frontLocation">
+                    Summer 2015
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Microsoft</div>
+                <div class="backParagraph">
+                      Interned on the Satori (Knowledge Graph) team under Bing. <br></br>
+
+                  Developed an algorithm to detect subtle entity relations in an immense ontology and rank them by novelty.<br></br>
+
+                  Wrote C# and internal query language as part of an R&D ML pipeline.<br></br>
+
+                  Increased run-time by two orders of magnitude, allowing for efficient discovery of the relations.
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+
             <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">             
+              <div class="front">
+                  <div class="frontTitle">
+                    Silicon Valley Education Foundation
+                  </div>
+                  <div class="frontLogo svef">
+                  </div>
+                  <div class="frontLocation">
+                      Summer 2013
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">SVEF</div>
+                <div class="backParagraph">
+                     Worked as part of 'Stepping Up To Algebra', an intervention program to help students complete Algebra I and increase student aspirations to attend college.
+                     <br></br>
+
+                     Instructed and tutored a large group of at risk students in basic algebra.
+                     <br></br>
+
+                     Helped plan and conduct the final cumulative Parent-Teacher college preparation meeting.
+                </div>
+                    <br>
+                <div class="backGoto">
+                  <a href="http://svefoundation.org/" title="SVEF">SVEF</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FIFTH -->
+
+    <div id="fifth_section">
+      <div id="fifth_positioner">
+        <div id="fifth_container">
+          <div class="b2">Research, Teaching, and Skills</div>
+          <div id="container-stuff">    
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+              <div class="front">
+                  <div class="frontTitle">
+                    Linguistics Research
+                  </div>
+                  <div class="frontLogo CCM"></div>
+                  <div class="frontLocation">
+                    Aug 2015 - June 2016
+                  </div>
+              </div>
+              <div class="back">
+                <div class="backTitle">Linguistics Research</div>
+                <div class="backParagraph">
+                  Work with 
+                  <a href="http://www.linguistics.ucsb.edu/people/fermin-moscoso-del-prado-martin"> Professor Moscoso</a> at UCSB.
+                  <br></br>
+                  Using dynamical systems and causal modeling techniques to understand the underlying complex nonlinear patterns of language development in children.
+                  <br></br>
+                  <a href="//jirvin16.github.io/pdfs/cogsci_irvin_final.pdf">First Author Paper in Cognitive Science</a>
+                  <br>
+                  <a href="//jirvin16.github.io/pdfs/poster.pdf">Conference Poster</a>
+                  <br>
+                  <a href="http://www.spokoyny.me/cogsci_16.pdf">Conference Talk</a>
+                  <br></br>
+                   <a href="//jirvin16.github.io/pdfs/spokoyny-acl.pdf">Second Author Paper in ACL</a>
+                  <br></br>
+                  <a href="//jirvin16.github.io/pdfs/senior_thesis_draft.pdf">Final Thesis</a>
+                </div>
+                <div class="backGoto"></div>
+              </div>
+            </div>
+
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">      
               <div class="front">
                   <div class="frontTitle">
                     Computer Learning Co-Lecturer
@@ -132,74 +410,42 @@
                 </div>
               </div>
             </div>
-            
-            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';"> 
+
+            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
               <div class="front">
                   <div class="frontTitle">
-                    Microsoft Internship
+                    Skills
                   </div>
-                  <div class="frontLogo ms"></div>
-                  <!--<div class="frontLogo bing"></div>-->
+                  <div class="frontLogo miscellaneous"></div>
                   <div class="frontLocation">
-                    Summer 2015
+                    Ongoing
                   </div>
               </div>
               <div class="back">
-                <div class="backTitle">Microsoft Internship</div>
+                <div class="backTitle">Skills</div>
                 <div class="backParagraph">
-		              Interned on the Satori (Knowledge Graph) team under Bing. <br></br>
-
-                  Developed an algorithm to detect subtle entity relations in an immense ontology and rank them by novelty.<br></br>
-
-                  Wrote C# and internal query language as part of an R&D ML pipeline.<br></br>
-
-                  Increased run-time by two orders of magnitude, allowing for efficient discovery of the relations.
+                  <p><u>Languages:</u><br>Python (5 years),
+                  <br>
+                  C (4 years),
+                  <br>
+                  R, C++, C#, SQL
+                  <br></br>
+                  <u>Notable Tools/Frameworks:</u><br>
+                  <a href="https://www.tensorflow.org/">TensorFlow</a>,
+                  <a href="http://scikit-learn.org/stable/">scikit-learn</a>, 
+                  <a href="http://scrapy.org/">Scrapy</a>,
+                  <a href="http://www.seleniumhq.org/">Selenium</a>,
+                  Git, LaTeX
                 </div>
                 <div class="backGoto"></div>
               </div>
             </div>
-<!--             <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">             
-              <div class="front">
-                  <div class="frontTitle">
-                    Silicon Valley Education Foundation Internship
-                  </div>
-                  <div class="frontLogo svef">
-                  </div>
-                  <div class="frontLocation">
-                      Summer 2013
-                  </div>
-              </div>
-              <div class="back">
-                <div class="backTitle">SVEF Internship</div>
-                <div class="backParagraph">
-                     Worked as part of 'Stepping Up To Algebra', an intervention program to help students complete Algebra I and increase student aspirations to attend college.
-                     <br></br>
-
-                     Instructed and tutored a large group of at risk students in basic algebra.
-                     <br></br>
-
-                     Helped plan and conduct the final cumulative Parent-Teacher college preparation meeting.
-                </div>
-		            <br>
-                <div class="backGoto">
-                  <a href="http://svefoundation.org/" title="SVEF">SVEF</a>
-                </div>
-              </div>
-            </div> -->
-
           </div>
         </div>
       </div>
-    </div>  
+    </div>
 
-    <!-- THIRD -->
-
-    <div id="third_section">
-      <div id="third_positioner">
-        <div id="third_container">
-          <div class="b2">Interests and Research</div>
-          <div id="container-projects">    
-            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
+<!-- <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
               <div class="front">
                   <div class="frontTitle">
                     Machine Learning, Natural Language Processing,<br> Information Retrieval
@@ -219,83 +465,17 @@
                   scikit-learn
                   </a>
                   (Python ML library), 
-		  <a href="http://www.nltk.org/">
-		  NLTK
-		  </a>
-		  (Python NLP platform),
-		  R (including numerous ML algorithms), and SQL, especially with relational databases.
-		  <br></br>
-		  Attended <a href="http://nips.cc">NIPS 2015</a>.
+                  <a href="http://www.nltk.org/">
+                  NLTK
+                  </a>
+                  (Python NLP platform),
+                  R (including numerous ML algorithms), and SQL, especially with relational databases.
+                  <br></br>
+                  Attended <a href="http://nips.cc">NIPS 2015</a>.
                 </div>
                 <div class="backGoto"></div>
               </div>
             </div>    
-
-            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
-              <div class="front">
-                  <div class="frontTitle">
-                    Linguistics Research
-                  </div>
-                  <div class="frontLogo CCM"></div>
-                  <div class="frontLocation">
-                    Aug 2015 - June 2016
-                  </div>
-              </div>
-              <div class="back">
-                <div class="backTitle">Linguistics Research</div>
-                <div class="backParagraph">
-                  Work with 
-                  <a href="http://www.linguistics.ucsb.edu/people/fermin-moscoso-del-prado-martin"> Professor Moscoso</a> at UCSB.
-                  <br></br>
-                  Using dynamical systems and causal modeling techniques to understand the underlying complex nonlinear patterns of language development in children.
-                  <br></br>
-                  <a href="//jirvin16.github.io/pdfs/cogsci_irvin_final.pdf">First Author Paper Accepted by Cognitive Science</a>
-                  <br>
-                  <a href="//jirvin16.github.io/pdfs/poster.pdf">Conference Poster</a>
-                  <br></br>
-<!--                   <a href="//jirvin16.github.io/pdfs/spokoyny-acl.pdf">Second Author Paper Submitted to ACL</a> -->
-                  <br></br>
-                  <a href="//jirvin16.github.io/pdfs/senior_thesis_draft.pdf">Final Thesis</a>
-                </div>
-                <div class="backGoto"></div>
-              </div>
-            </div>
-
-            <div class="hover panel" onmouseover="javascript:this.className += ' flip';" onmouseout="javascript:this.className = 'hover panel';">
-              <div class="front">
-                  <div class="frontTitle">
-                    Miscellaneous Skills
-                  </div>
-                  <div class="frontLogo miscellaneous"></div>
-                  <div class="frontLocation">
-                    Ongoing
-                  </div>
-              </div>
-              <div class="back">
-                <div class="backTitle">Miscellaneous Skills</div>
-                <div class="backParagraph">
-                  <p><u>Languages:</u><br>Python, C, R, C++, C#, SQL<br></br>
-                  <!--<u>Notable Tools/Frameworks:</u><br>
-                  <a href="http://scikit-learn.org/stable/">
-                  scikit-learn
-                  </a>, 
-                  <a href="http://scrapy.org/">
-                  Scrapy
-                  </a>,
-                  Git, LaTeX<br></br>-->
-                  <u>Relevant Supplemental Courses:</u><br>
-                  <a href="http://cs224d.stanford.edu/">
-                  Deep Learning for NLP</a>,
-                  <a href="http://cs229.stanford.edu/">
-                  Machine Learning</a></p>
-                </div>
-                <div class="backGoto"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 <script>
 $(function() {
