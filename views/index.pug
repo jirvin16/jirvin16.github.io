@@ -1,0 +1,182 @@
+extends layout
+
+block title
+  title Jeremy Irvin
+
+block description
+  meta(name='description', content='I am a Master\'s student in the Stanford Computer Science Department.')
+
+block content
+
+  section#header
+    .background-image
+    .container
+      .row
+        .col-lg-8
+          img.img-circle.headshot(src='/img/JeremyIrvin.jpg')
+          .col-lg-offset-3
+            h1#page-title Jeremy Irvin
+            p jirvin16 _at_ cs.stanford.edu 
+            ul.list-inline.outside-links
+              li
+                a(href="jirvin16@cs.stanford.edu")
+                  i.fa.fa-envelope
+              li
+                a(href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=Q2BwDYMAAAAJ")
+                  i.fa.fa-graduation-cap
+              li
+                a(href="https://www.linkedin.com/in/jirvin16/")
+                  i.fa.fa-linkedin
+              li
+                a(href="https://twitter.com/jeremy_irvin16")
+                  i.fa.fa-twitter
+              li
+                a(href="https://github.com/jirvin16")
+                  i.fa.fa-github
+              li
+                a(href="/views/includes/cv.pdf")
+                  i.fa.fa-file-text
+
+  section#bio.gray.features
+    .container
+      .row
+        .col-lg-12.text-center
+          .section-heading
+            h1 Bio
+      .row
+        .col-md-10.col-md-offset-1.text-center
+          //- h3 
+          //-   | I completed my undergraduate degree in mathematics and computer science at UCSB, where I conducted research in computational linguistics with Professor Ferm&iacute;n Moscoso del Prado Mart&iacute;n.
+          h3
+            | I am a second year Master's student in the Computer Science Department at Stanford. 
+          h3 
+            | I conduct research in the 
+            a(href="https://stanfordmlgroup.github.io") Stanford ML Group 
+            | with Professor Andrew Ng on developing machine learning techniques for healthcare and education.
+
+  section#projects.features
+    .container
+      .row
+        .col-lg-12.text-center
+          .section-heading
+            h1 Research
+            p.text-muted Here are some my research projects at Stanford and UCSB.
+            hr
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            //- i.fa.fa-user-md.text-primary
+            h2 MURA - Large Dataset for Abnormality Detection in Musculoskeletal Radiographs
+            p Ongoing project with Pranav Rajpurkar and Professor Matt Lungren, Professor Andrew Ng
+            p.text-muted
+              | Released a large dataset of musculoskeletal radiographs for an abnormality detection computer vision task. The dataset contains over 40,000 images of the upper extremeties which were manually annotated by board-certified radiologists as normal or abnormal.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/MURA") Project Webpage
+            a.btn.btn-default(href="https://arxiv.org/abs/1712.06957") Paper (ARXIV)
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            //- i.fa.fa-user-md.text-primary
+            h2 ChexNet - Radiologist-Level Pneumonia Detection
+            p Ongoing project with Pranav Rajpurkar and Professor Matt Lungren, Professor Andrew Ng
+            p.text-muted
+              | Developed an algorithm that can detect pneumonia from chest radiographs at the level of practicing radiologists. Our model, CheXNet, is a 121-layer convolutional neural network trained on ChestX-ray14, the largest publicly available chest X-ray dataset. 
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/chexnet/") Project Webpage
+            a.btn.btn-default(href="https://arxiv.org/abs/1711.05225") Paper (ARXIV)
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            //- i.fa.fa-heartbeat.text-primary
+            h2 Chemotherapy-induced Heart Failure
+            p Ongoing project with Pranav Rajpurkar and Professor Andrew Ng
+            p.text-muted
+              | Building a risk model for the onset of heart failure due to chemotherapy treatment. The model is trained on electronic health record data and will alert oncologists when their patients are showing signs of cardiotoxicity, allowing them to alter treatment and save patient lives.
+            a.btn.btn-default(href="https://rajpurkar.github.io/mlx/chemo-cardiotoxicity/") Blog Post
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            //- i.fa.fa-heartbeat.text-primary
+            h2 Child Language Learning
+            p From September 2015 to June 2016 with Daniel Spokoyny and Professor Ferm&iacute;n Moscoso del Prado Mart&iacute;n
+            p.text-muted
+              | Applied dynamical systems and causal modeling techniques to linguistic data to understand the underlying complex nonlinear patterns of language development in children. UCSB Undergrad Research Colloquium Best Humanities Research Prize Winner.
+            a.btn.btn-default(href="https://mindmodeling.org/cogsci2016/papers/0456/index.html") Paper (Cognitive Science)
+            a.btn.btn-default(href="http://aclweb.org/anthology/W16-19") Paper (ACL)
+            a.btn.btn-default(href="/views/includes/poster.pdf") Poster
+            a.btn.btn-default(href="http://ccs.math.ucsb.edu/senior-thesis/Jeremy%20Irvin.pdf") Senior Thesis
+
+  section#teaching.gray.features
+    .container
+      .row
+        .col-lg-12.text-center
+          .section-heading
+            h1 Teaching
+      .row
+        .col-md-offset-2.col-md-4
+          .feature-item.center
+            i.fa.fa-medkit.text-primary
+            h2 AI in Healthcare Bootcamp
+            p Quarter-long bootcamp with Anand Avati, Pranav Rajpurkar and Professor Nigam Shah, Professor Andrew Ng
+            p.text-muted
+              | Co-organized a quarter-long bootcamp at Stanford covering advanced techniques at the intersection of artificial intelligence and healthcare. 
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/aihc-bootcamp-2017/") Bootcamp Webpage
+        .col-md-4
+          .feature-item.center
+            i.fa.fa-book.text-primary
+            h2 ML, NLP, DL Course 
+            p Quarter-long course with Daniel Spokoyny and Professor &Ouml;mer Egecioglu, Professor Murat Karaorman
+            p.text-muted
+              | Co-designed a quarter-long course at UCSB providing an overview of machine learning, natural language processing, and deep learning.
+            a.btn.btn-default(href="https://computer-learning.github.io/class/") Course Webpage
+
+  section#industry.features
+    .container
+      .row
+        .col-lg-12.text-center
+          .section-heading
+            h1 Industry Experience
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            h2 Microsoft
+              span.date.text-muted Summer 2017
+            p Data Scientist Intern, Market Intelligence
+            p.text-muted
+              | Built a large scale, unsupervised query embedding model to learn information-rich embeddings. Improved market intellgience platform by integrating deep learning tools into the insights pipeline.
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            h2 Microsoft
+              span.date.text-muted Summer 2016
+            p Software Engineering Intern, Bing Predicts
+            p.text-muted
+              | Created a model to predict the MTV Video Music Awards’s using Bing search and social data.
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            h2 Microsoft
+              span.date.text-muted Summer 2015
+            p Software Engineering Intern, Satori (Knowledge Graph)
+            p.text-muted
+              | Developed an algorithm to detect subtle entity relations in an immense ontology and rank them by novelty. Increased run-time by two orders of magnitude.
+
+  section#education.gray.features
+    .container
+      .row
+        .col-lg-12.text-center
+          .section-heading
+            h1 Education
+      .row
+        .col-md-offset-2.col-md-4
+          .feature-item.center
+            img(src='/img/stanford.png')
+            h2 Stanford
+            p Master's in Computer Science
+            p.text-muted
+              | 4.00 / 4.00 GPA
+        .col-md-4
+          .feature-item.center
+            img(src='/img/ucsb.png')
+            h2 UCSB
+            p Bachelor's in Mathematics, Bachelor's in Computer Science
+            p.text-muted
+              | 3.97 / 4.00 GPA
