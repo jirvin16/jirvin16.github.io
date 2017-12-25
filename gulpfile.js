@@ -18,8 +18,9 @@ gulp.task('watch_build', ['build'], function () {
 gulp.task('browser-sync', ['build'], function () {
   browserSync.init({
     server: {
-      baseDir: './'
-    }
+      baseDir: './',
+    },
+    tunnel: 'lolol'
   })
 })
 
