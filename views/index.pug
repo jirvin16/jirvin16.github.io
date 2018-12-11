@@ -48,11 +48,11 @@ block content
           //- h3 
           //-   | I completed my undergraduate degree in mathematics and computer science at UCSB, where I conducted research in computational linguistics with Professor Ferm&iacute;n Moscoso del Prado Mart&iacute;n.
           h3
-            | I am a second year Master's student in the Computer Science Department at Stanford. 
+            | I am a Master's student in the Computer Science Department at Stanford. 
           h3 
             | I conduct research in the 
             a(href="https://stanfordmlgroup.github.io") Stanford ML Group 
-            | with Professor Andrew Ng on developing machine learning techniques for healthcare and education.
+            | with Professor Andrew Ng on developing machine learning techniques for healthcare.
 
   section#projects.features
     .container
@@ -62,35 +62,57 @@ block content
             h1 Research
             p.text-muted Here are some my research projects at Stanford and UCSB.
             hr
+      //- .row
+      //-   .col-lg-offset-3.col-lg-6.text-center
+      //-     .feature-item.left
+      //-       h2 CheXpert - TODO
+      //-       p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
       .row
         .col-lg-offset-3.col-lg-6.text-center
           .feature-item.left
-            //- i.fa.fa-user-md.text-primary
+            h2 CheXNeXt - Deep learning for chest radiograph diagnosis
+            p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
+            p.text-muted
+              | We developed a model (CheXNeXt) to concurrently detect 14 clinically important diseases in chest radiographs. We demonstrated that the model achieved performance comparable to that of radiologists on 11 of the 14 diseases.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/chexnext/") Project Webpage
+            a.btn.btn-default(href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002686") Paper (PLOS Medicine)
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            h2 MRNet - Deep-learning-assisted diagnosis for knee magnetic resonance imaging
+            p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
+            p.text-muted
+              | We developed a model (MRNet) to predict abnormalities in knee MRI exams, and measured the clinical utility of providing the model's predictions to radiologists and surgeons during interpretation. We found that model assistance significantly reduced the rate at which healthy patients would be mistakenly diagnosed as having ACL tears.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/mrnet/") Project Webpage
+            a.btn.btn-default(href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699") Paper (PLOS Medicine)
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
             h2 MURA - Large Dataset for Abnormality Detection in Musculoskeletal Radiographs
-            p Ongoing project with Pranav Rajpurkar and Professor Matt Lungren, Professor Andrew Ng
+            p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
             p.text-muted
-              | Released a large dataset of musculoskeletal radiographs for an abnormality detection computer vision task. The dataset contains over 40,000 images of the upper extremeties which were manually annotated by board-certified radiologists as normal or abnormal.
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/MURA") Project Webpage
-            a.btn.btn-default(href="https://arxiv.org/abs/1712.06957") Paper (ARXIV)
+              | We developed a dataset (MURA) to serve as a benchmark for the advancement of research in medical imaging. MURA contains over 40,000 X-ray images of the upper extremeties which were manually annotated by board-certified radiologists as normal or abnormal.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/competitions/mura/") Project Webpage
+            a.btn.btn-default(href="https://arxiv.org/abs/1712.06957") Paper (MIDL 2018)
       .row
         .col-lg-offset-3.col-lg-6.text-center
           .feature-item.left
-            //- i.fa.fa-user-md.text-primary
             h2 ChexNet - Radiologist-Level Pneumonia Detection
-            p Ongoing project with Pranav Rajpurkar and Professor Matt Lungren, Professor Andrew Ng
+            p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
             p.text-muted
-              | Developed an algorithm that can detect pneumonia from chest radiographs at the level of practicing radiologists. Our model, CheXNet, is a 121-layer convolutional neural network trained on ChestX-ray14, the largest publicly available chest X-ray dataset. 
+              | We developed a model (CheXNet) that can detect pneumonia from chest radiographs at the level of practicing radiologists. Our model is a 121-layer convolutional neural network trained on ChestX-ray14, the largest publicly available chest X-ray dataset. 
             a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/chexnet/") Project Webpage
             a.btn.btn-default(href="https://arxiv.org/abs/1711.05225") Paper (ARXIV)
-      .row
-        .col-lg-offset-3.col-lg-6.text-center
-          .feature-item.left
-            //- i.fa.fa-heartbeat.text-primary
-            h2 Chemotherapy-induced Heart Failure
-            p Ongoing project with Pranav Rajpurkar and Professor Andrew Ng
-            p.text-muted
-              | Building a risk model for the onset of heart failure due to chemotherapy treatment. The model is trained on electronic health record data and will alert oncologists when their patients are showing signs of cardiotoxicity, allowing them to alter treatment and save patient lives.
-            a.btn.btn-default(href="https://rajpurkar.github.io/mlx/chemo-cardiotoxicity/") Blog Post
+            a.btn.btn-default(href="https://www.technologyreview.com/the-download/609510/a-new-algorithm-can-spot-pneumonia-better-than-a-radiologist/") MIT Tech Review
+      //- .row
+      //-   .col-lg-offset-3.col-lg-6.text-center
+      //-     .feature-item.left
+      //-       //- i.fa.fa-heartbeat.text-primary
+      //-       h2 Chemotherapy-induced Heart Failure
+      //-       p Ongoing project with Pranav Rajpurkar and Professor Andrew Ng
+      //-       p.text-muted
+      //-         | Building a risk model for the onset of heart failure due to chemotherapy treatment. The model is trained on electronic health record data and will alert oncologists when their patients are showing signs of cardiotoxicity, allowing them to alter treatment and save patient lives.
+      //-       a.btn.btn-default(href="https://rajpurkar.github.io/mlx/chemo-cardiotoxicity/") Blog Post
       .row
         .col-lg-offset-3.col-lg-6.text-center
           .feature-item.left
@@ -111,22 +133,17 @@ block content
           .section-heading
             h1 Teaching
       .row
-        .col-md-offset-2.col-md-4
+        .col-md-offset-4.col-md-4
           .feature-item.center
             i.fa.fa-medkit.text-primary
-            h2 AI in Healthcare Bootcamp Winter 2018
-            p Quarter-long bootcamp with Anand Avati, Pranav Rajpurkar and several professors
+            h2 Stanford AI in Healthcare Bootcamp
+            p Quarter-long bootcamps with Pranav Rajpurkar, Anand Avati, Professor Andrew Ng, and multiple medical school professors
             p.text-muted
-              | Co-organized a quarter-long, 13-student bootcamp at Stanford covering advanced techniques at the intersection of artificial intelligence and healthcare. 
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-winter2018/") Bootcamp Webpage
-        .col-md-4
-          .feature-item.center
-            i.fa.fa-medkit.text-primary
-            h2 AI in Healthcare Bootcamp Fall 2017
-            p Quarter-long bootcamp with Anand Avati, Pranav Rajpurkar and Professor Nigam Shah, Professor Andrew Ng
-            p.text-muted
-              | Co-organized a quarter-long, 6-student bootcamp at Stanford covering advanced techniques at the intersection of artificial intelligence and healthcare. 
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-fall2017/") Bootcamp Webpage
+              | Co-organized multiple quarter-long bootcamps at Stanford covering advanced techniques at the intersection of artificial intelligence and healthcare.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-fall2018/") Bootcamp Fall 2018
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-spring2018/") Bootcamp Spring 2018
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-winter2018/") Bootcamp Winter 2018
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-fall2017/") Bootcamp Fall 2017
       .row
         .col-md-offset-4.col-md-4
           .feature-item.center
@@ -181,7 +198,7 @@ block content
             h2 Stanford
             p Master's in Computer Science
             p.text-muted
-              | 4.00 / 4.00 GPA
+              | 3.99 / 4.00 GPA
         .col-md-4
           .feature-item.center
             img(src='/img/ucsb.png')
