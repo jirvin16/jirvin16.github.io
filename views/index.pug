@@ -4,7 +4,7 @@ block title
   title Jeremy Irvin
 
 block description
-  meta(name='description', content='I am a Master\'s student in the Stanford Computer Science Department.')
+  meta(name='description', content='I am a PhD student in the Stanford Machine Learning group.')
 
 block content
 
@@ -45,14 +45,10 @@ block content
             h1 Bio
       .row
         .col-md-10.col-md-offset-1.text-center
-          //- h3 
-          //-   | I completed my undergraduate degree in mathematics and computer science at UCSB, where I conducted research in computational linguistics with Professor Ferm&iacute;n Moscoso del Prado Mart&iacute;n.
           h3
-            | I am a Master's student in the Computer Science Department at Stanford. 
-          h3 
-            | I conduct research in the 
+            | I am a PhD student in the 
             a(href="https://stanfordmlgroup.github.io") Stanford ML Group 
-            | with Professor Andrew Ng on developing machine learning techniques for healthcare.
+            | advised by Professor Andrew Ng. I'm interested in developing machine learning tools for medicine and climate change.
 
   section#projects.features
     .container
@@ -62,11 +58,15 @@ block content
             h1 Research
             p.text-muted Here are some my research projects at Stanford and UCSB.
             hr
-      //- .row
-      //-   .col-lg-offset-3.col-lg-6.text-center
-      //-     .feature-item.left
-      //-       h2 CheXpert - TODO
-      //-       p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
+      .row
+        .col-lg-offset-3.col-lg-6.text-center
+          .feature-item.left
+            h2 CheXpert - Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison
+            p Project with Pranav Rajpurkar and Professor Matt Lungren, Professor Curt Langlotz, Professor Andrew Ng
+            p.text-muted
+              | We developed a dataset (CheXpert) to serve as a benchmark for the advancement of research in automated models for chest X-ray interpretation. CheXpert contains over 200,000 X-ray images of the chest, including validation and test sets annotated by a panel of radiologists.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/competitions/chexpert/") Project Webpage
+            a.btn.btn-default(href="https://arxiv.org/abs/1901.07031") Paper (AAAI 2019)
       .row
         .col-lg-offset-3.col-lg-6.text-center
           .feature-item.left
@@ -104,6 +104,7 @@ block content
             a.btn.btn-default(href="https://stanfordmlgroup.github.io/projects/chexnet/") Project Webpage
             a.btn.btn-default(href="https://arxiv.org/abs/1711.05225") Paper (ARXIV)
             a.btn.btn-default(href="https://www.technologyreview.com/the-download/609510/a-new-algorithm-can-spot-pneumonia-better-than-a-radiologist/") MIT Tech Review
+            a.btn.btn-default(href="https://www.wsj.com/articles/how-robots-may-make-radiologists-jobs-easier-not-redundant-1511368729") The Wall Street Journal
       //- .row
       //-   .col-lg-offset-3.col-lg-6.text-center
       //-     .feature-item.left
@@ -135,15 +136,14 @@ block content
       .row
         .col-md-offset-3.col-md-6
           .feature-item.center
-            i.fa.fa-medkit.text-primary
-            h2 Stanford AI in Healthcare Bootcamp
-            p Quarter-long bootcamps with Pranav Rajpurkar, Anand Avati, Professor Andrew Ng, and multiple medical school professors
+            i.fa.fa-medkit.text-primary 
+            i.fa.fa-globe.text-primary
+            h2 Stanford AI for Healthcare and Climate Change Bootcamps
+            p Quarter-long bootcamps with Pranav Rajpurkar, Sharon Zhou, Anand Avati, Professor Andrew Ng, and multiple medical school professors
             p.text-muted
-              | Co-organized multiple quarter-long bootcamps at Stanford covering advanced techniques at the intersection of artificial intelligence and healthcare.
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-fall2018/") Bootcamp Fall 2018
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-spring2018/") Bootcamp Spring 2018
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-winter2018/") Bootcamp Winter 2018
-            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp-fall2017/") Bootcamp Fall 2017
+              | Co-organized multiple quarter-long bootcamps at Stanford covering advanced artificial intelligence techniques applied to healthcare and climate change.
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp/") Healthcare Bootcamp Webpage
+            a.btn.btn-default(href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/") Climate Change Bootcamp Webpage
       .row
         .col-md-offset-3.col-md-6
           .feature-item.center
