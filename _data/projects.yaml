@@ -1,0 +1,36 @@
+projects:
+  - title: "CheXpedition"
+    subtitle: "Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting"
+    thumbnail: "assets/projects/chexpedition/fig1.png"
+    url: "https://stanfordmlgroup.github.io/projects/chexpedition/"
+    selected: n
+
+  - title: "CheXpert"
+    subtitle: "A Large Chest X-Ray Dataset And Competition"
+    thumbnail: "assets/projects/chexpert/logo.jpg"
+    url: "https://stanfordmlgroup.github.io/competitions/chexpert/"
+    selected: y
+
+  - title: "CheXNeXt"
+    subtitle: "Deep learning for chest radiograph diagnosis"
+    thumbnail: "assets/projects/chexnext/chexnext-cams.png"
+    url: "https://stanfordmlgroup.github.io/projects/chexnext/"
+    selected: y
+
+  - title: "MRNet"
+    subtitle: "A Knee MRI Dataset And Competition"
+    thumbnail: "assets/projects/mrnet/logo.jpg"
+    url: "https://stanfordmlgroup.github.io/competitions/mrnet/"
+    selected: n
+
+  - title: "MURA"
+    subtitle: "Bone X-Ray Deep Learning Competition"
+    thumbnail: "assets/projects/mura/dataset.png"
+    url: "https://stanfordmlgroup.github.io/competitions/mura/"
+    selected: y
+
+  - title: "CheXNet"
+    subtitle: "Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learnings"
+    thumbnail: "assets/projects/chexnet/chest-cam.png"
+    url: "https://stanfordmlgroup.github.io/projects/chexnet/"
+    selected: y

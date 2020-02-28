@@ -1,0 +1,36 @@
+experiences:
+- place: "Stanford University"
+  time: "Sep 2019 -"
+  title: "PhD"
+  subtitle: "Advised by Andrew Ng"
+  category: "school"
+
+- place: "Market Intelligence"
+  time: "Summer 2017"
+  title: "Summer Intern"
+  subtitle: "Microsoft"
+  category: "work"
+
+- place: "Bing Predicts"
+  time: "Summer 2016"
+  title: "Summer Intern"
+  subtitle: "Microsoft"
+  category: "work"
+
+- place: "Stanford University"
+  time: "Sep 2016 - Jun 2019"
+  title: "Master's"
+  subtitle: "Computer Science"
+  category: "school"
+
+- place: "Satori"
+  time: "Summer 2015"
+  title: "Summer Intern"
+  subtitle: "Microsoft"
+  category: "work"
+
+- place: "UC Santa Barbara"
+  time: "Sep 2012 - Jun 2016"
+  title: "Undergraduate"
+  subtitle: "Computer Science and Mathematics"
+  category: "school"
