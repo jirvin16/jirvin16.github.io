@@ -128,6 +128,45 @@ title: Personal Webpage
 
 </div>
 
+
+<!-- ========== TEACHING ========== -->
+<div class="docs-section" id="teaching">
+  <h4>Teaching</h4>
+    <div style="width: 49%; display: inline-block;">
+      <a href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/">
+        <img src="/assets/bootcamps/aicc-bootcamp.png"/>
+      </a>
+    </div>
+    <div style="width: 49%; display: inline-block;">
+      <a href="https://stanfordmlgroup.github.io/programs/aihc-bootcamp/">
+        <img src="/assets/bootcamps/aihc-bootcamp.png"/>
+      </a>
+    </div>
+</div>
+
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h4>In the News</h4>
+    <h5>AI for Climate Change</h5>
+    <div class="tab-pane active" id="news">
+      {% for news in site.data.climate_news.news %}
+        <div class="paper">
+          <a href="{{ news.link }}">{{ news.source }}</a>
+        </div>
+      {% endfor %}
+    </div>
+    <h5>AI for Medicine</h5>
+    <div class="tab-pane active" id="news">
+      {% for news in site.data.medicine_news.news %}
+        <div class="paper">
+          <a href="{{ news.link }}">{{ news.source }}</a>
+        </div>
+      {% endfor %}
+    </div>
+</div>
+
+
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
