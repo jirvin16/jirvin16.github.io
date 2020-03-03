@@ -30,7 +30,7 @@ projects:
     selected: y
 
   - title: "CheXNet"
-    subtitle: "Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learnings"
+    subtitle: "Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning"
     thumbnail: "assets/projects/chexnet/chest-cam.png"
     url: "https://stanfordmlgroup.github.io/projects/chexnet/"
     selected: y
