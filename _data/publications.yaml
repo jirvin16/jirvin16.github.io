@@ -1,75 +1,81 @@
 papers:
 
+  - title: "AppendiXNet: Deep Learning for Diagnosis of Appendicitis from A Small Dataset of CT Exams Using Video Pretraining"
+    authors: "Pranav Rajpurkar<sup>‡</sup>, Allison Park<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Chris Chute, Michael Bereket, Domenico Mastrodicasa, Curtis P. Langlotz, Matthew P. Lungren, Andrew Y. Ng<sup>‡‡</sup>, Bhavik N. Patel<sup>‡‡</sup>"
+    venue: "Nature Scientific Reports 2020"
+    paper_pdf: "https://www.nature.com/articles/s41598-020-61055-6.pdf?origin=ppub"
+    selected: y
+
   - title: "FLUXNET Methane Synthesis: Modeling Wetland Methane Fluxes from Sites to the Globe"
-    authors: "Gavin McNicol, Etienne Fluet-chouinard, Zhen Zhang, Jeremy Irvin, Sharon Zhou, Fred Lu, Andrew Kondrich, Vincent Liu, Andrew Ng, Sara Knox, Benjamin Poulter, Robert B Jacksoni"
+    authors: "Gavin McNicol, Etienne Fluet-chouinard, Zhen Zhang, <b>Jeremy Irvin</b>, Sharon Zhou, Fred Lu, Andrew Kondrich, Vincent Liu, Andrew Ng, Sara Knox, Benjamin Poulter, Robert B Jackson"
     venue: "AGU Fall Meeting 2019"
     poster: "https://docs.google.com/viewer?url=https://agu.confex.com/agu/fm19/mediafile/Handout/Paper575186/McNicol_AGU2019.pdf"
     selected: n
 
   - title: "DeepWind: Weakly Supervised Localization of Wind Turbines in Satellite Imagery"
-    authors: "Sharon Zhou<sup>‡</sup>, Jeremy Irvin<sup>‡</sup>, Zhecheng Wang, Eva Zhang, Jabs Aljubran, Will Deadrick, Ram Rajagopal, Andrew Ng"
+    authors: "Sharon Zhou<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Zhecheng Wang, Eva Zhang, Jabs Aljubran, Will Deadrick, Ram Rajagopal, Andrew Ng"
     venue: "NeurIPS Climate Change Workshop 2019"
     paper_pdf: "https://www.climatechange.ai/CameraReadySubmissions%202-119/15/CameraReadySubmission/Wind_Turbine_Detection___NeurIPS_Workshop%20(4).pdf"
     selected: n
 
   - title: "Human–machine partnership with artificial intelligence for chest radiograph diagnosis"
-    authors: "Bhavik N Patel, Louis Rosenberg, Gregg Willcox, David Baltaxe, Mimi Lyons, Jeremy Irvin, Pranav Rajpurkar, Timothy Amrhein, Rajan Gupta, Safwan Halabi, Curtis Langlotz, Edward Lo, Joseph Mammarappallil, AJ Mariano, Geoffrey Riley, Jayne Seekins, Luyao Shen, Evan Zucker, Matthew Lungren"
+    authors: "Bhavik N Patel, Louis Rosenberg, Gregg Willcox, David Baltaxe, Mimi Lyons, <b>Jeremy Irvin</b>, Pranav Rajpurkar, Timothy Amrhein, Rajan Gupta, Safwan Halabi, Curtis Langlotz, Edward Lo, Joseph Mammarappallil, AJ Mariano, Geoffrey Riley, Jayne Seekins, Luyao Shen, Evan Zucker, Matthew Lungren"
     venue: "NPJ digital medicine 2019"
     paper_pdf: "https://www.nature.com/articles/s41746-019-0189-7"
     selected: n
 
   - title: "Real-time electronic interpretation of digital chest images using artificial intelligence in emergency department patients suspected of pneumonia"
-    authors: "Nathan Dean, Jeremy A Irvin, Pranav Rajpurkar, Al Jephson, Karen Conner, Mathew P Lungren"
+    authors: "Nathan Dean, <b>Jeremy A Irvin</b>, Pranav Rajpurkar, Al Jephson, Karen Conner, Mathew P Lungren"
     venue: "European Respiratory Journal 2019"
     paper_pdf: "https://erj.ersjournals.com/content/54/suppl_63/OA3309.abstract"
     selected: n
 
   - title: "CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison"
-    authors: "Jeremy Irvin<sup>‡</sup>, Pranav Rajpurkar<sup>‡</sup>, Michael Ko, Yifan Yu, Silviana Ciurea-Ilcus, Chris Chute, Henrik Marklund, Behzad Haghgoo, Robyn Ball, Katie Shpanskaya, Jayne Seekins, David A Mong, Safwan S Halabi, Jesse K Sandberg, Ricky Jones, David B Larson, Curtis P Langlotz, Bhavik N Patel, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
+    authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Pranav Rajpurkar<sup>‡</sup>, Michael Ko, Yifan Yu, Silviana Ciurea-Ilcus, Chris Chute, Henrik Marklund, Behzad Haghgoo, Robyn Ball, Katie Shpanskaya, Jayne Seekins, David A Mong, Safwan S Halabi, Jesse K Sandberg, Ricky Jones, David B Larson, Curtis P Langlotz, Bhavik N Patel, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
     venue: "Thirty-Third AAAI Conference on Artificial Intelligence 2019"
     paper_pdf: "https://arxiv.org/abs/1901.07031"
     code: "https://github.com/stanfordmlgroup/chexpert-labeler"
     selected: y
 
   - title: "Deep-learning-assisted diagnosis for knee magnetic resonance imaging: development and retrospective validation of MRNet"
-    authors: "Nicholas Bien<sup>‡</sup>, Pranav Rajpurkar<sup>‡</sup>, Robyn L Ball, Jeremy Irvin, Allison Park, Erik Jones, Michael Bereket, Bhavik N Patel, Kristen W Yeom, Katie Shpanskaya, Safwan Halabi, Evan Zucker, Gary Fanton, Derek F Amanatullah, Christopher F Beaulieu, Geoffrey M Riley, Russell J Stewart, Francis G Blankenberg, David B Larson, Ricky H Jones, Curtis P Langlotz, Andrew Y Ng<sup>‡‡</sup>, Matthew P Lungren<sup>‡‡</sup>"
+    authors: "Nicholas Bien<sup>‡</sup>, Pranav Rajpurkar<sup>‡</sup>, Robyn L Ball, <b>Jeremy Irvin</b>, Allison Park, Erik Jones, Michael Bereket, Bhavik N Patel, Kristen W Yeom, Katie Shpanskaya, Safwan Halabi, Evan Zucker, Gary Fanton, Derek F Amanatullah, Christopher F Beaulieu, Geoffrey M Riley, Russell J Stewart, Francis G Blankenberg, David B Larson, Ricky H Jones, Curtis P Langlotz, Andrew Y Ng<sup>‡‡</sup>, Matthew P Lungren<sup>‡‡</sup>"
     venue: "PLoS medicine 2018"
     paper_pdf: "https://journals.plos.org/plosmedicine/article%3Fid%3D10.1371/journal.pmed.1002699"
     selected: n
 
   - title: "Deep learning for chest radiograph diagnosis: A retrospective comparison of the CheXNeXt algorithm to practicing radiologists"
-    authors: "Pranav Rajpurkar<sup>‡</sup>, Jeremy Irvin<sup>‡</sup>, Robyn L Ball, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis P Langlotz, Bhavik N Patel, Kristen W Yeom, Katie Shpanskaya, Francis G Blankenberg, Jayne Seekins, Timothy J Amrhein, David A Mong, Safwan S Halabi, Evan J Zucker, Andrew Y Ng<sup>‡‡</sup>, Matthew P Lungren<sup>‡‡</sup>"
+    authors: "Pranav Rajpurkar<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Robyn L Ball, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis P Langlotz, Bhavik N Patel, Kristen W Yeom, Katie Shpanskaya, Francis G Blankenberg, Jayne Seekins, Timothy J Amrhein, David A Mong, Safwan S Halabi, Evan J Zucker, Andrew Y Ng<sup>‡‡</sup>, Matthew P Lungren<sup>‡‡</sup>"
     venue: "PLoS medicine 2018"
     paper_pdf: "https://journals.plos.org/plosmedicine/article%3Fid%3D10.1371/journal.pmed.1002686"
     video: "https://www.youtube.com/watch?v=VJRCj-4E2iU"
     selected: y
 
   - title: "MURA: Large Dataset for Abnormality Detection in Musculoskeletal Radiographs"
-    authors: "Pranav Rajpurkar<sup>‡</sup>, Jeremy Irvin<sup>‡</sup>, Aarti Bagul, Daisy Ding, Tony Duan, Hershel Mehta, Brandon Yang, Kaylie Zhu, Dillon Laird, Robyn L Ball, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
+    authors: "Pranav Rajpurkar<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Aarti Bagul, Daisy Ding, Tony Duan, Hershel Mehta, Brandon Yang, Kaylie Zhu, Dillon Laird, Robyn L Ball, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
     venue: "1st Conference on Medical Imaging with Deep Learning 2018"
     paper_pdf: "https://arxiv.org/abs/1712.069576"
     selected: y
 
   - title: "Radiology SWARM: novel crowdsourcing tool for CheXNet algorithm validation"
-    authors: "Safwan Halabi, Matthew Lungren, Louis Rosenberg, David Baltaxe, Bhavik Patel, Jayne Seekins, Francis Blakenberg, David Mong, Timothy Amrhein, Pranav Raipurkar, David Larson, Jeremy Irvin, Robyn Ball, Curtis P Langlotz, Gregg Willcox"
+    authors: "Safwan Halabi, Matthew Lungren, Louis Rosenberg, David Baltaxe, Bhavik Patel, Jayne Seekins, Francis Blakenberg, David Mong, Timothy Amrhein, Pranav Raipurkar, David Larson, <b>Jeremy Irvin</b>, Robyn Ball, Curtis P Langlotz, Gregg Willcox"
     venue: "SiiM Conference on Machine Intelligence in Medical Imaging 2018"
     paper_pdf: "https://pdfs.semanticscholar.org/7ee0/22b0d3dee98cc2810c902c26c63f574483b0.pdf"
     selected: n
 
   - title: "Chexnet: Radiologist-level pneumonia detection on chest x-rays with deep learning"
-    authors: "Pranav Rajpurkar<sup>‡</sup>, Jeremy Irvin<sup>‡</sup>, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
+    authors: "Pranav Rajpurkar<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
     venue: "arXiv preprint 2017"
     paper_pdf: "https://arxiv.org/abs/1711.05225"
     selected: y
 
   - title: "Explicit Causal Connections between the Acquisition of Linguistic Tiers: Evidence from Dynamical Systems Modeling"
-    authors: "Daniel Spokoyny, Jeremy Irvin, Fermin Moscoso del Prado Martin"
+    authors: "Daniel Spokoyny, <b>Jeremy Irvin</b>, Fermin Moscoso del Prado Martin"
     venue: "Proceedings of the 7th Workshop on Cognitive Aspects of Computational Language Learning 2016"
     paper_pdf: "https://www.aclweb.org/anthology/W16-1910.pdf"
     selected: n
 
   - title: "Dynamical systems modeling of the child-mother dyad: Causality between child-directed language complexity and language development."
-    authors: "Jeremy Irvin, Daniel Spokoyny, Fermin Moscoso del Prado Martin"
+    authors: "<b>Jeremy Irvin</b>, Daniel Spokoyny, Fermin Moscoso del Prado Martin"
     venue: "CogSci 2016"
     paper_pdf: "https://cogsci.mindmodeling.org/2016/papers/0456/paper0456.pdf"
     selected: n
