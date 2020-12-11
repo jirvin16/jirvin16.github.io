@@ -1,4 +1,22 @@
 projects:
+  - title: "OGNet"
+    subtitle: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
+    thumbnail: "assets/projects/ognet/fig2.png"
+    url: "https://stanfordmlgroup.github.io/projects/ognet/"
+    selected: y
+
+  - title: "ForestNet"
+    subtitle: "ForestNet: Classifying Drivers of Deforestation in Indonesia using Deep Learning on Satellite Imagery"
+    thumbnail: "assets/projects/forestnet/fig1.png"
+    url: "https://stanfordmlgroup.github.io/projects/forestnet/"
+    selected: y
+
+  - title: "Solar Forecasting"
+    subtitle: "Short-Term Solar Irradiance Forecasting Using Calibrated Probabilistic Models"
+    thumbnail: "assets/projects/solar/fig1.png"
+    url: "https://stanfordmlgroup.github.io/projects/solar/"
+    selected: y
+
   - title: "CheXpedition"
     subtitle: "Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting"
     thumbnail: "assets/projects/chexpedition/fig1.png"
