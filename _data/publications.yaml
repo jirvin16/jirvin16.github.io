@@ -1,6 +1,6 @@
 papers:
 
-  - title: "OGap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"
+  - title: "Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"
     authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Sharon Zhou<sup>‡</sup>, Gavin McNicol<sup>‡</sup>, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, ..., Andrew Y. Ng, Rob Jackson"
     venue: "Agricultural and Forest Meteorology"
     paper_pdf: "https://authors.elsevier.com/a/1dNxrcFXJZ1gC"
