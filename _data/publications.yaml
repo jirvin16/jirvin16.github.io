@@ -1,4 +1,15 @@
 papers:
+  - title: "Marked crosswalks in US transit-oriented station areas, 2007–2020: A computer vision approach using street view imagery"
+    authors: "Meiqing Li<sup>‡</sup>, Hao Sheng<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Heejung Chung, Andrew Ying, Tiger Sun, Andrew Y Ng, Daniel A Rodriguez"
+    venue: "Environment and Planning B: Urban Analytics and City Science"
+    paper_pdf: "https://journals.sagepub.com/doi/full/10.1177/23998083221112157"
+    selected: y
+
+  - title: "CheXED: comparison of a deep learning model to a clinical decision support system for pneumonia in the emergency department"
+    authors: "<b>Jeremy A Irvin<sup>‡</sup></b>, Anuj Pareek<sup>‡</sup>, Jin Long, Pranav Rajpurkar, David Ken-Ming Eng, Nishith Khandwala, Peter J Haug, Al Jephson, Karen E Conner, Benjamin H Gordon, Fernando Rodriguez, Andrew Y Ng, Matthew P Lungren, Nathan C Dean"
+    venue: "Journal of Thoracic Imaging"
+    paper_pdf: "https://pubmed.ncbi.nlm.nih.gov/34561377/"
+    selected: n
 
   - title: "Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"
     authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Sharon Zhou<sup>‡</sup>, Gavin McNicol<sup>‡</sup>, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, ..., Andrew Y. Ng, Rob Jackson"
