@@ -14,7 +14,7 @@ papers:
   - title: "Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"
     authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Sharon Zhou<sup>‡</sup>, Gavin McNicol<sup>‡</sup>, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, ..., Andrew Y. Ng, Rob Jackson"
     venue: "Agricultural and Forest Meteorology"
-    paper_pdf: "https://authors.elsevier.com/a/1dNxrcFXJZ1gC"
+    paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0168192321002124"
     selected: y
 
   - title: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
