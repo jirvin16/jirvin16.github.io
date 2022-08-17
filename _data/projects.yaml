@@ -1,4 +1,10 @@
 projects:
+  - title: "METER-ML"
+    subtitle: "METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping"
+    thumbnail: "assets/projects/meter-ml/fig0.png"
+    url: "https://stanfordmlgroup.github.io/projects/meter-ml/"
+    selected: y
+
   - title: "OGNet"
     subtitle: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
     thumbnail: "assets/projects/ognet/fig2.png"
