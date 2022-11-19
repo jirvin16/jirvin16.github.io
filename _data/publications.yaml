@@ -3,6 +3,7 @@ papers:
     authors: "Bryan Zhu<sup>‡</sup>, Nicholas Lui<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Sahil Tadwalkar, Chenghao Wang, Zutao Ouyang, Frankie Y. Liu, Andrew Y. Ng, Robert B. Jackson"
     venue: "IJCAI-ECAI 2022 Workshop on Complex Data Challenges in Earth Observation"
     paper_pdf: "http://arxiv.org/abs/2207.11166"
+    video: "https://www.youtube.com/watch?v=WGVy_viLhgU"
     selected: y
 
   - title: "Marked crosswalks in US transit-oriented station areas, 2007–2020: A computer vision approach using street view imagery"
