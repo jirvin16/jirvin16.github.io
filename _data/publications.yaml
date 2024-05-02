@@ -1,4 +1,42 @@
 papers:
+  - title: "Automatic deforestation driver attribution using deep learning on satellite imagery"
+    authors: "Neel Ramachandran<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Hao Sheng, Sonja Johnson-Yu, Kyle Story, Rose Rustowicz, Andrew Y Ng, Kemen Austin"
+    paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0959378024000475"
+    venue: "Global Environmental Change"
+    selected: y
+
+  - title: "Geo-bench: Toward foundation models for earth monitoring"
+    authors: "Alexandre Lacoste, Nils Lehmann, Pau Rodriguez, Evan Sherwin, Hannah Kerner, Björn Lütjens, <b>Jeremy Irvin</b>, David Dao, Hamed Alemohammad, Alexandre Drouin, Mehmet Gunturkun, Gabriel Huang, David Vazquez, Dava Newman, Yoshua Bengio, Stefano Ermon, Xiaoxiang Zhu"
+    paper_pdf: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a0644215d9cff6646fa334dfa5d29c5a-Abstract-Datasets_and_Benchmarks.html"
+    venue: "NeurIPS 2023 Datasets and Benchmarks Track"
+    selected: y
+
+  - title: "CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds"
+    authors: "Muhammad Ahmed Chaudhry<sup>‡</sup>, Lyna Kim<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Yuzu Ido, Sonia Chu, Jared Thomas Isobe, Andrew Y Ng, Duncan Watson-Parris"
+    paper_pdf: "https://arxiv.org/abs/2401.14486"
+    selected: n
+
+  - title: "USat: A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery"
+    authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Lucas Tao<sup>‡</sup>, Joanne Zhou, Yuntao Ma, Langston Nashold, Benjamin Liu, Andrew Y. Ng"
+    paper_pdf: "https://arxiv.org/abs/2312.02199"
+    selected: y
+
+  - title: "An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets"
+    authors: "Maya Srikanth<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Brian Wesley Hill, Felipe Godoy, Ishan Sabane, Andrew Y Ng"
+    paper_pdf: "https://arxiv.org/abs/2312.02200"
+    selected: n
+
+  - title: "An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets"
+    authors: "Maya Srikanth<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Brian Wesley Hill, Felipe Godoy, Ishan Sabane, Andrew Y Ng"
+    paper_pdf: "https://arxiv.org/abs/2312.02200"
+    selected: n
+
+  - title: "Weakly-semi-supervised object detection in remotely sensed imagery"
+    authors: "Ji Hun Wang<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Beri Kohen Behar, Ha Tran, Raghav Samavedam, Quentin Hsu, Andrew Y. Ng"
+    venue: "Tackling Climate Change with Machine Learning at NeurIPS 2023"
+    paper_pdf: "https://arxiv.org/abs/2311.17449"
+    selected: y
+
   - title: "METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping"
     authors: "Bryan Zhu<sup>‡</sup>, Nicholas Lui<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Sahil Tadwalkar, Chenghao Wang, Zutao Ouyang, Frankie Y. Liu, Andrew Y. Ng, Robert B. Jackson"
     venue: "IJCAI-ECAI 2022 Workshop on Complex Data Challenges in Earth Observation"
