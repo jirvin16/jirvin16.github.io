@@ -6,7 +6,11 @@ title: Personal Webpage
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I'm a Ph.D. candidate in the <a href="https://stanfordmlgroup.github.io/">Stanford Machine Learning Group</a> advised by Andrew Ng and Stefano Ermon. I'm interested in developing machine learning tools for climate change. My current research is focused on the development of multimodal foundation models for remote sensing and climate simulation data. I founded the <a href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/">AI for Climate Change Bootcamp</a> at Stanford which I currently lead.  I'm also a core team member of <a href="https://www.climatechange.ai/">Climate Change AI</a>, where I co-organize the <a href="https://www.climatechange.ai/events/summer_school2023">CCAI Summer School</a>.
+  I'm a Ph.D. candidate in the <a href="https://stanfordmlgroup.github.io/">Stanford Machine Learning Group</a> advised by Andrew Ng and Stefano Ermon. I'm interested in the development and adaptation of multimodal foundation models, motivated by their potential to drive significant societal benefits including applications in climate change and in medicine. My current research is focused on advancing models for remote sensing and climate simulation data.
+  </p>
+
+  <p>
+  I founded the <a href="https://stanfordmlgroup.github.io/programs/aicc-bootcamp/">AI for Climate Change Bootcamp</a> at Stanford which I currently lead.  I'm also a core team member of <a href="https://www.climatechange.ai/">Climate Change AI</a>, where I co-organize the <a href="https://www.climatechange.ai/events/summer_school2023">CCAI Summer School</a>.
   </p>
   <p>
   I received a double Bachelor's degree in Computer Science and Mathematics from UC Santa Barbara and a Master's degree in Computer Science from Stanford University. My Master's work included the development of medical AI technologies (AppendiXNet, CheXNeXt, MRNet, CheXNet) and datasets (CheXpert, MURA).
@@ -55,6 +59,10 @@ title: Personal Webpage
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
             {% endif %}
+
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo }}" target="_blank">Demo</a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -85,6 +93,10 @@ title: Personal Webpage
 
             {% if paper.code %}
               <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.demo %}
+              <a class="button" href="{{ paper.demo }}" target="_blank">Demo</a>
             {% endif %}
           </div>
         </div>

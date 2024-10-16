@@ -1,15 +1,34 @@
 papers:
+  - title: "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data"
+    authors: "<b>Jeremy Andrew Irvin</b>, Emily Ruoyu Liu, Joyce Chuyi Chen, Ines Dormoy, Jinyoung Kim, Samar Khanna, Zhuo Zheng, Stefano Ermon"
+    paper_pdf: "https://arxiv.org/abs/2410.06234"
+    code: "https://github.com/ermongroup/TEOChat"
+    demo: "https://huggingface.co/spaces/jirvin16/TEOChat"
+    selected: y
+
+  - title: "Many-Shot In-Context Learning in Multimodal Foundation Models"
+    authors: "Yixing Jiang<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Ji Hun Wang, Muhammad Ahmed Chaudhry, Jonathan H Chen, Andrew Y Ng"
+    paper_pdf: "https://arxiv.org/abs/2405.09798"
+    code: "https://github.com/stanfordmlgroup/ManyICL"
+    selected: y
+
+  - title: "Deep learning for detecting and characterizing oil and gas well pads in satellite imagery"
+    authors: "Neel Ramachandran<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Mark Omara, Ritesh Gautam, Kelsey Meisenhelder, Erfan Rostami, Hao Sheng, Andrew Y Ng, Robert B Jackson"
+    paper_pdf: "https://www.nature.com/articles/s41467-024-50334-9"
+    venue: "Nature Communications 2024"
+    selected: y
+
   - title: "Automatic deforestation driver attribution using deep learning on satellite imagery"
     authors: "Neel Ramachandran<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Hao Sheng, Sonja Johnson-Yu, Kyle Story, Rose Rustowicz, Andrew Y Ng, Kemen Austin"
     paper_pdf: "https://www.sciencedirect.com/science/article/pii/S0959378024000475"
-    venue: "Global Environmental Change"
+    venue: "Global Environmental Change 2024"
     selected: y
 
   - title: "Geo-bench: Toward foundation models for earth monitoring"
     authors: "Alexandre Lacoste, Nils Lehmann, Pau Rodriguez, Evan Sherwin, Hannah Kerner, Björn Lütjens, <b>Jeremy Irvin</b>, David Dao, Hamed Alemohammad, Alexandre Drouin, Mehmet Gunturkun, Gabriel Huang, David Vazquez, Dava Newman, Yoshua Bengio, Stefano Ermon, Xiaoxiang Zhu"
     paper_pdf: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a0644215d9cff6646fa334dfa5d29c5a-Abstract-Datasets_and_Benchmarks.html"
     venue: "NeurIPS 2023 Datasets and Benchmarks Track"
-    selected: y
+    selected: n
 
   - title: "CloudTracks: A Dataset for Localizing Ship Tracks in Satellite Images of Clouds"
     authors: "Muhammad Ahmed Chaudhry<sup>‡</sup>, Lyna Kim<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Yuzu Ido, Sonia Chu, Jared Thomas Isobe, Andrew Y Ng, Duncan Watson-Parris"
@@ -19,11 +38,6 @@ papers:
   - title: "USat: A Unified Self-Supervised Encoder for Multi-Sensor Satellite Imagery"
     authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Lucas Tao<sup>‡</sup>, Joanne Zhou, Yuntao Ma, Langston Nashold, Benjamin Liu, Andrew Y. Ng"
     paper_pdf: "https://arxiv.org/abs/2312.02199"
-    selected: y
-
-  - title: "An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets"
-    authors: "Maya Srikanth<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Brian Wesley Hill, Felipe Godoy, Ishan Sabane, Andrew Y Ng"
-    paper_pdf: "https://arxiv.org/abs/2312.02200"
     selected: n
 
   - title: "An Empirical Study of Automated Mislabel Detection in Real World Vision Datasets"
@@ -35,20 +49,20 @@ papers:
     authors: "Ji Hun Wang<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Beri Kohen Behar, Ha Tran, Raghav Samavedam, Quentin Hsu, Andrew Y. Ng"
     venue: "Tackling Climate Change with Machine Learning at NeurIPS 2023"
     paper_pdf: "https://arxiv.org/abs/2311.17449"
-    selected: y
+    selected: n
 
   - title: "METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping"
     authors: "Bryan Zhu<sup>‡</sup>, Nicholas Lui<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Sahil Tadwalkar, Chenghao Wang, Zutao Ouyang, Frankie Y. Liu, Andrew Y. Ng, Robert B. Jackson"
     venue: "IJCAI-ECAI 2022 Workshop on Complex Data Challenges in Earth Observation"
     paper_pdf: "http://arxiv.org/abs/2207.11166"
     video: "https://www.youtube.com/watch?v=WGVy_viLhgU"
-    selected: y
+    selected: n
 
   - title: "Marked crosswalks in US transit-oriented station areas, 2007–2020: A computer vision approach using street view imagery"
     authors: "Meiqing Li<sup>‡</sup>, Hao Sheng<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Heejung Chung, Andrew Ying, Tiger Sun, Andrew Y Ng, Daniel A Rodriguez"
     venue: "Environment and Planning B: Urban Analytics and City Science"
     paper_pdf: "https://journals.sagepub.com/doi/full/10.1177/23998083221112157"
-    selected: y
+    selected: n
 
   - title: "CheXED: comparison of a deep learning model to a clinical decision support system for pneumonia in the emergency department"
     authors: "<b>Jeremy A Irvin<sup>‡</sup></b>, Anuj Pareek<sup>‡</sup>, Jin Long, Pranav Rajpurkar, David Ken-Ming Eng, Nishith Khandwala, Peter J Haug, Al Jephson, Karen E Conner, Benjamin H Gordon, Fernando Rodriguez, Andrew Y Ng, Matthew P Lungren, Nathan C Dean"
@@ -60,7 +74,7 @@ papers:
     authors: "<b>Jeremy Irvin<sup>‡</sup></b>, Sharon Zhou<sup>‡</sup>, Gavin McNicol<sup>‡</sup>, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, ..., Andrew Y. Ng, Rob Jackson"
     venue: "Agricultural and Forest Meteorology"
     paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0168192321002124"
-    selected: y
+    selected: n
 
   - title: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
     authors: "Hao Sheng<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Sasankh Munukutla, Shawn Zhang, Christopher Cross, Kyle Story, Rose Rustowicz, Cooper Elsworth, Zutao Yang, Mark Omara, Ritesh Gautam, Robert B Jackson, Andrew Y. Ng"
@@ -78,7 +92,7 @@ papers:
     authors: "Eric Zelikman<sup>‡</sup>, Sharon Zhou<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Cooper Raterink, Hao Sheng, Jack Kelly, Ram Rajagopal, Andrew Y Ng<sup>‡‡</sup>, David Gagne<sup>‡‡</sup>"
     venue: "NeurIPS 2020 Workshop on Tackling Climate Change with Machine Learning"
     paper_pdf: "https://arxiv.org/abs/2010.04715"
-    selected: y
+    selected: n
 
   - title: "Evaluation of a Machine Learning Model Based on Pretreatment Symptoms and Electroencephalographic Features to Predict Outcomes of Antidepressant Treatment in Adults With Depression"
     authors: "Pranav Rajpurkar, Jingbo Yang, Nathan Dass, Vinjai Vale, Arielle S. Keller, <b>Jeremy Irvin</b>, Zachary Taylor, Sanjay Basu, Andrew Ng, Leanne M. Williams"
@@ -90,7 +104,7 @@ papers:
     authors: "<b>Jeremy Irvin</b>, Andrew A Kondrich, Michael Ko, Pranav Rajpurkar, Behzad Haghgoo, Bruce E Landon, Robert L Phillips, Stephen Petterson, Andrew Y Ng, Sanjay Basu"
     venue: "BMC Public Health 2020"
     paper_pdf: "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-08735-0"
-    selected: y
+    selected: n
 
   - title: "AppendiXNet: Deep Learning for Diagnosis of Appendicitis from A Small Dataset of CT Exams Using Video Pretraining"
     authors: "Pranav Rajpurkar<sup>‡</sup>, Allison Park<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Chris Chute, Michael Bereket, Domenico Mastrodicasa, Curtis P. Langlotz, Matthew P. Lungren, Andrew Y. Ng<sup>‡‡</sup>, Bhavik N. Patel<sup>‡‡</sup>"

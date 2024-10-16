@@ -1,33 +1,27 @@
 projects:
-  - title: "METER-ML"
-    subtitle: "METER-ML: A Multi-sensor Earth Observation Benchmark for Automated Methane Source Mapping"
-    thumbnail: "assets/projects/meter-ml/fig0.png"
-    url: "https://stanfordmlgroup.github.io/projects/meter-ml/"
+  - title: "TEOChat"
+    subtitle: "A Large Vision-Language Assistant for Temporal Earth Observation Data"
+    thumbnail: "assets/projects/teochat/figure3.png"
+    url: "https://github.com/ermongroup/TEOChat"
+    selected: y
+
+  - title: "Many-shot ICL"
+    subtitle: "Many-Shot In-Context Learning in Multimodal Foundation Models"
+    thumbnail: "assets/projects/manyshot_icl/fig1.png"
+    url: "https://github.com/stanfordmlgroup/ManyICL"
     selected: y
 
   - title: "OGNet"
-    subtitle: "OGNet: Towards a Global Oil and Gas Infrastructure Database using Deep Learning on Remotely Sensed Imagery"
+    subtitle: "Towards a Global Oil and Gas Infrastructure Database"
     thumbnail: "assets/projects/ognet/fig2.png"
     url: "https://stanfordmlgroup.github.io/projects/ognet/"
     selected: y
 
   - title: "ForestNet"
-    subtitle: "ForestNet: Classifying Drivers of Deforestation in Indonesia using Deep Learning on Satellite Imagery"
+    subtitle: "Classifying Drivers of Deforestation in Indonesia"
     thumbnail: "assets/projects/forestnet/fig1.png"
     url: "https://stanfordmlgroup.github.io/projects/forestnet/"
     selected: y
-
-  - title: "Solar Forecasting"
-    subtitle: "Short-Term Solar Irradiance Forecasting Using Calibrated Probabilistic Models"
-    thumbnail: "assets/projects/solar/fig1.png"
-    url: "https://stanfordmlgroup.github.io/projects/solar/"
-    selected: y
-
-  - title: "CheXpedition"
-    subtitle: "Investigating Generalization Challenges for Translation of Chest X-Ray Algorithms to the Clinical Setting"
-    thumbnail: "assets/projects/chexpedition/fig1.png"
-    url: "https://stanfordmlgroup.github.io/projects/chexpedition/"
-    selected: n
 
   - title: "CheXpert"
     subtitle: "A Large Chest X-Ray Dataset And Competition"
@@ -40,12 +34,6 @@ projects:
     thumbnail: "assets/projects/chexnext/chexnext-cams.png"
     url: "https://stanfordmlgroup.github.io/projects/chexnext/"
     selected: y
-
-  - title: "MRNet"
-    subtitle: "A Knee MRI Dataset And Competition"
-    thumbnail: "assets/projects/mrnet/logo.jpg"
-    url: "https://stanfordmlgroup.github.io/competitions/mrnet/"
-    selected: n
 
   - title: "MURA"
     subtitle: "Bone X-Ray Deep Learning Competition"
