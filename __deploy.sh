@@ -8,3 +8,4 @@ jekyll serve
 # Upload to server
 # scp -r _site/* public_html/
 
+echo "cat git_password to get pw for git push"
