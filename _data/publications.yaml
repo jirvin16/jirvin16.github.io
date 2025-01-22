@@ -2,6 +2,7 @@ papers:
   - title: "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data"
     authors: "<b>Jeremy Andrew Irvin</b>, Emily Ruoyu Liu, Joyce Chuyi Chen, Ines Dormoy, Jinyoung Kim, Samar Khanna, Zhuo Zheng, Stefano Ermon"
     paper_pdf: "https://arxiv.org/abs/2410.06234"
+    venue: "International Conference on Learning Representations (ICLR) 2025"
     code: "https://github.com/ermongroup/TEOChat"
     demo: "https://huggingface.co/spaces/jirvin16/TEOChat"
     selected: y
@@ -9,6 +10,7 @@ papers:
   - title: "Many-Shot In-Context Learning in Multimodal Foundation Models"
     authors: "Yixing Jiang<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Ji Hun Wang, Muhammad Ahmed Chaudhry, Jonathan H Chen, Andrew Y Ng"
     paper_pdf: "https://arxiv.org/abs/2405.09798"
+    venue: "ICML 2024 Workshop on In-Context Learning"
     code: "https://github.com/stanfordmlgroup/ManyICL"
     selected: y
 
