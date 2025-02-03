@@ -5,6 +5,12 @@ projects:
     url: "https://github.com/ermongroup/TEOChat"
     selected: y
 
+  - title: "Planet Parasol"
+    subtitle: "A new simulator to explore the effects of stratospheric aerosol injection on the climate."
+    thumbnail: "assets/projects/sai-simulator/image.png"
+    url: "planetparasol.ai"
+    selected: y
+
   - title: "Many-shot ICL"
     subtitle: "Many-Shot In-Context Learning in Multimodal Foundation Models"
     thumbnail: "assets/projects/manyshot_icl/fig1.png"
