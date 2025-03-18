@@ -8,7 +8,7 @@ projects:
   - title: "Planet Parasol"
     subtitle: "A new simulator to explore the effects of stratospheric aerosol injection on the climate."
     thumbnail: "assets/projects/sai-simulator/image.png"
-    url: "planetparasol.ai"
+    url: "https://planetparasol.ai"
     selected: y
 
   - title: "Many-shot ICL"
