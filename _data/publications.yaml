@@ -112,7 +112,7 @@ papers:
     authors: "Pranav Rajpurkar<sup>‡</sup>, Allison Park<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Chris Chute, Michael Bereket, Domenico Mastrodicasa, Curtis P. Langlotz, Matthew P. Lungren, Andrew Y. Ng<sup>‡‡</sup>, Bhavik N. Patel<sup>‡‡</sup>"
     venue: "Nature Scientific Reports 2020"
     paper_pdf: "https://www.nature.com/articles/s41598-020-61055-6.pdf?origin=ppub"
-    selected: y
+    selected: n
 
   - title: "DeepWind: Weakly Supervised Localization of Wind Turbines in Satellite Imagery"
     authors: "Sharon Zhou<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Zhecheng Wang, Eva Zhang, Jabs Aljubran, Will Deadrick, Ram Rajagopal, Andrew Ng"
@@ -150,13 +150,13 @@ papers:
     venue: "PLoS medicine 2018"
     paper_pdf: "https://journals.plos.org/plosmedicine/article%3Fid%3D10.1371/journal.pmed.1002686"
     video: "https://www.youtube.com/watch?v=VJRCj-4E2iU"
-    selected: y
+    selected: n
 
   - title: "MURA: Large Dataset for Abnormality Detection in Musculoskeletal Radiographs"
     authors: "Pranav Rajpurkar<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Aarti Bagul, Daisy Ding, Tony Duan, Hershel Mehta, Brandon Yang, Kaylie Zhu, Dillon Laird, Robyn L Ball, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
     venue: "1st Conference on Medical Imaging with Deep Learning 2018"
     paper_pdf: "https://arxiv.org/abs/1712.069576"
-    selected: y
+    selected: n
 
   - title: "Radiology SWARM: novel crowdsourcing tool for CheXNet algorithm validation"
     authors: "Safwan Halabi, Matthew Lungren, Louis Rosenberg, David Baltaxe, Bhavik Patel, Jayne Seekins, Francis Blakenberg, David Mong, Timothy Amrhein, Pranav Raipurkar, David Larson, <b>Jeremy Irvin</b>, Robyn Ball, Curtis P Langlotz, Gregg Willcox"
@@ -168,7 +168,7 @@ papers:
     authors: "Pranav Rajpurkar<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Curtis Langlotz, Katie Shpanskaya, Matthew P Lungren<sup>‡‡</sup>, Andrew Y Ng<sup>‡‡</sup>"
     venue: "arXiv preprint 2017"
     paper_pdf: "https://arxiv.org/abs/1711.05225"
-    selected: y
+    selected: n
 
   - title: "Explicit Causal Connections between the Acquisition of Linguistic Tiers: Evidence from Dynamical Systems Modeling"
     authors: "Daniel Spokoyny, <b>Jeremy Irvin</b>, Fermin Moscoso del Prado Martin"

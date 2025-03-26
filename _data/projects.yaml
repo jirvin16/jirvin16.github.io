@@ -1,6 +1,6 @@
 projects:
   - title: "TEOChat"
-    subtitle: "A Large Vision-Language Assistant for Temporal Earth Observation Data"
+    subtitle: "A large vision-language assistant (and dataset) for temporal earth observation data"
     thumbnail: "assets/projects/teochat/figure3.png"
     url: "https://github.com/ermongroup/TEOChat"
     selected: y
@@ -12,43 +12,25 @@ projects:
     selected: y
 
   - title: "Many-shot ICL"
-    subtitle: "Many-Shot In-Context Learning in Multimodal Foundation Models"
+    subtitle: "A tool to study many-shot in-context learning in multimodal foundation models"
     thumbnail: "assets/projects/manyshot_icl/fig1.png"
     url: "https://github.com/stanfordmlgroup/ManyICL"
     selected: y
 
-  - title: "OGNet"
-    subtitle: "Towards a Global Oil and Gas Infrastructure Database"
-    thumbnail: "assets/projects/ognet/fig2.png"
-    url: "https://stanfordmlgroup.github.io/projects/ognet/"
-    selected: y
-
-  - title: "ForestNet"
-    subtitle: "Classifying Drivers of Deforestation in Indonesia"
-    thumbnail: "assets/projects/forestnet/fig1.png"
-    url: "https://stanfordmlgroup.github.io/projects/forestnet/"
+  - title: "METER-ML"
+    subtitle: "A new benchmark for automated methane source mapping from satellite data"
+    thumbnail: "assets/projects/meter-ml/fig0.png"
+    url: "http://arxiv.org/abs/2207.11166"
     selected: y
 
   - title: "CheXpert"
-    subtitle: "A Large Chest X-Ray Dataset And Competition"
+    subtitle: "A large chest x-ray dataset and competition"
     thumbnail: "assets/projects/chexpert/logo.jpg"
     url: "https://stanfordmlgroup.github.io/competitions/chexpert/"
     selected: y
 
-  - title: "CheXNeXt"
-    subtitle: "Deep learning for chest radiograph diagnosis"
-    thumbnail: "assets/projects/chexnext/chexnext-cams.png"
-    url: "https://stanfordmlgroup.github.io/projects/chexnext/"
-    selected: y
-
   - title: "MURA"
-    subtitle: "Bone X-Ray Deep Learning Competition"
+    subtitle: "A bone x-ray deep learning dataset and competition"
     thumbnail: "assets/projects/mura/dataset.png"
     url: "https://stanfordmlgroup.github.io/competitions/mura/"
-    selected: y
-
-  - title: "CheXNet"
-    subtitle: "Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning"
-    thumbnail: "assets/projects/chexnet/chest-cam.png"
-    url: "https://stanfordmlgroup.github.io/projects/chexnet/"
     selected: y
