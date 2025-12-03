@@ -13,6 +13,14 @@ papers:
     demo: "https://huggingface.co/spaces/jirvin16/TEOChat"
     selected: y
 
+  - title: "The Stratospheric Aerosol Injection (SAI) Simulator: An Open-Source Web Tool for Exploring Climate and SAI Deployment Scenarios"
+    authors: "Charlotte Beall<sup>‡</sup>, <b>Jeremy Andrew Irvin<sup>‡</sup></b>, Jake Dexheimer, Dakota Gruener, Andrew Y. Ng, Duncan Watson-Parris, Douglas G. MacMartin, Daniele Visioni"
+    paper_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5200736"
+    venue: "Under Review at One Earth"
+    code: "https://github.com/reflective-org/sai-simulator"
+    demo: "https://planetparasol.ai"
+    selected: y
+
   - title: "Many-Shot In-Context Learning in Multimodal Foundation Models"
     authors: "Yixing Jiang<sup>‡</sup>, <b>Jeremy Irvin<sup>‡</sup></b>, Ji Hun Wang, Muhammad Ahmed Chaudhry, Jonathan H Chen, Andrew Y Ng"
     paper_pdf: "https://arxiv.org/abs/2405.09798"
