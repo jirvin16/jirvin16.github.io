@@ -1,15 +1,16 @@
 experiences:
+
+- place: "Stanford University"
+  time: "Sep 2019 - Dec 2025"
+  title: "PhD"
+  subtitle: "Advised by Andrew Ng and Stefano Ermon"
+  category: "school"
+
 - place: "Climate Change AI"
-  time: "Dec 2020 -"
+  time: "Dec 2020 - Dec 2023"
   title: "Core Team Member"
   subtitle: "Programs Committee"
   category: "work"
-
-- place: "Stanford University"
-  time: "Sep 2019 -"
-  title: "PhD"
-  subtitle: "Advised by Andrew Ng"
-  category: "school"
 
 - place: "Market Intelligence"
   time: "Summer 2017"

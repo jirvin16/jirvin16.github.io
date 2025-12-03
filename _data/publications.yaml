@@ -1,4 +1,10 @@
 papers:
+  - title: "Spatiotemporal Pyramid Flow Matching for Climate Emulation"
+    authors: "<b>Jeremy Andrew Irvin</b>, Jiaqi Han, Zikui Wang, Abdulaziz Alharbi, Yufei Zhao, Nomin-Erdene Bayarsaikhan, Daniele Visioni, Andrew Y. Ng, Duncan Watson-Parris"
+    paper_pdf: "https://arxiv.org/abs/2512.02268"
+    code: "https://github.com/stanfordmlgroup/spf"
+    selected: y
+
   - title: "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data"
     authors: "<b>Jeremy Andrew Irvin</b>, Emily Ruoyu Liu, Joyce Chuyi Chen, Ines Dormoy, Jinyoung Kim, Samar Khanna, Zhuo Zheng, Stefano Ermon"
     paper_pdf: "https://arxiv.org/abs/2410.06234"

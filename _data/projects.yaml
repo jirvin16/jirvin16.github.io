@@ -1,4 +1,10 @@
 projects:
+  - title: "SPF"
+    subtitle: "A new generative model (and dataset) for climate emulation"
+    thumbnail: "assets/projects/spf/spf.png"
+    url: "https://github.com/stanfordmlgroup/spf"
+    selected: y
+
   - title: "TEOChat"
     subtitle: "A large vision-language assistant (and dataset) for temporal earth observation data"
     thumbnail: "assets/projects/teochat/figure3.png"
