@@ -2,6 +2,7 @@ papers:
   - title: "Spatiotemporal Pyramid Flow Matching for Climate Emulation"
     authors: "<b>Jeremy Andrew Irvin</b>, Jiaqi Han, Zikui Wang, Abdulaziz Alharbi, Yufei Zhao, Nomin-Erdene Bayarsaikhan, Daniele Visioni, Andrew Y. Ng, Duncan Watson-Parris"
     paper_pdf: "https://arxiv.org/abs/2512.02268"
+    venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026"
     code: "https://github.com/stanfordmlgroup/spf"
     selected: y
 
